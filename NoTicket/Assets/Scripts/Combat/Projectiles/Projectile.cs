@@ -10,6 +10,13 @@ public class Projectile : MonoBehaviour
     private float timer;
     private Vector2 direction;
 
+    private ProjectilePool originPool;
+
+    public void SetPool(ProjectilePool pool)
+    {
+        originPool = pool;
+    }
+
     void OnEnable()
     {
         timer = 0f;
@@ -17,7 +24,7 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(direction * speed * Time.deltaTime);
+        transform.Translate(direction * speed * Time.deltaTime, Space.World);
 
         timer += Time.deltaTime;
         if (timer >= lifetime)
@@ -38,6 +45,14 @@ public class Projectile : MonoBehaviour
 
     private void DeactivateProjectile()
     {
-        ProjectilePool.Instance.ReturnBullet(gameObject);
+        if (originPool != null)
+        {
+            originPool.ReturnBullet(gameObject);
+        }
+        else
+        {
+            Debug.LogWarning("Origin Pool ist nicht gesetzt!");
+        }
+        gameObject.SetActive(false);
     }
 }
