@@ -2,38 +2,42 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    [SerializeField]
     private float speed;
+    [SerializeField]
     private float lifetime;
-    private float currentLifetime;
 
-    public Vector2 direction;
+    private float timer;
+    private Vector2 direction;
 
-    private void Start()
+    void OnEnable()
     {
-
-        currentLifetime = lifetime;
+        timer = 0f;
     }
 
-    private void Update()
+    void Update()
     {
-
         transform.Translate(direction * speed * Time.deltaTime);
 
-        currentLifetime -= Time.deltaTime;
-        if (currentLifetime <= 0f)
+        timer += Time.deltaTime;
+        if (timer >= lifetime)
         {
-            Destroy(gameObject); 
+            DeactivateProjectile();
         }
     }
 
-
-    public virtual void OnHit(Collider2D collider)
+    public void Fire(Vector2 fireDirection)
     {
-        Destroy(gameObject); 
+        direction = fireDirection.normalized;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        OnHit(collision.collider);
+        DeactivateProjectile();
+    }
+
+    private void DeactivateProjectile()
+    {
+        ProjectilePool.Instance.ReturnBullet(gameObject);
     }
 }
