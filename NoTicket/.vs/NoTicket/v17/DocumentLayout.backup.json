@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|h:\\gitrepos\\gamejam_03_2025\\noticket\\assets\\scripts\\enemy\\ovenbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\ovenbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\camera\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\suitcasebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\suitcasebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\behaviour\\enemys\\enemyovenbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\behaviour\\enemys\\enemyovenbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\ui\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyOvenBehaviour.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\behaviour\\Enemys\\EnemyOvenBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\behaviour\\Enemys\\EnemyOvenBehaviour.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\behaviour\\Enemys\\EnemyOvenBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\behaviour\\Enemys\\EnemyOvenBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T01:31:13.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "suitcaseBehaviour.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T01:24:13.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FollowCamera.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T01:34:57.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OvenBehaviour.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\OvenBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\OvenBehaviour.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\OvenBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\OvenBehaviour.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T00:47:26.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuManager.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T01:12:19.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAuwAIBAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T01:06:03.865Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
