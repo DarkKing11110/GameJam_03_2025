@@ -3,19 +3,22 @@ using UnityEngine;
 public class SuitcaseBehaviour : MonoBehaviour
 {
     public float damage = 10.0f;
-    public float health = 20.0f;
     public float moveSpeed = 2.0f;
     public float patrolDistance = 5.0f;
     public LayerMask playerLayer;
+    public LayerMask obstacleLayer;
     public Transform topCheck;
     public float topCheckRadius = 0.5f;
+    public float obstacleCheckDistance = 0.1f;
 
-    private Vector2 startPosition;
-    private bool movingRight = true;
+    private bool movingLeft = true; // Start moving left
+    private Rigidbody2D rb;
+    private Vector2 initialPosition;
 
     private void Start()
     {
-        startPosition = transform.position;
+        rb = GetComponent<Rigidbody2D>();
+        initialPosition = transform.position;
     }
 
     private void Update()
@@ -26,28 +29,42 @@ public class SuitcaseBehaviour : MonoBehaviour
 
     private void Patrol()
     {
-        if (movingRight)
+        // Check for obstacles
+        if (IsObstacleInFront())
         {
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-            if (Vector2.Distance(startPosition, transform.position) >= patrolDistance)
+            movingLeft = !movingLeft;
+        }
+
+        if (movingLeft)
+        {
+            rb.linearVelocity = new Vector2(-moveSpeed, rb.linearVelocity.y);
+            if (Vector2.Distance(initialPosition, transform.position) >= patrolDistance)
             {
-                movingRight = false;
+                movingLeft = false;
             }
         }
         else
         {
-            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
-            if (Vector2.Distance(startPosition, transform.position) <= 0)
+            rb.linearVelocity = new Vector2(moveSpeed, rb.linearVelocity.y);
+            if (Vector2.Distance(initialPosition, transform.position) <= 0.1f)
             {
-                movingRight = true;
+                movingLeft = true;
             }
         }
+    }
+
+    private bool IsObstacleInFront()
+    {
+        Vector2 direction = movingLeft ? Vector2.left : Vector2.right;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, obstacleCheckDistance, obstacleLayer);
+        Debug.DrawRay(transform.position, direction * obstacleCheckDistance, Color.red); // Debug: Draw the ray
+        return hit.collider != null;
     }
 
     private void CheckPlayerOnTop()
     {
         Collider2D playerOnTop = Physics2D.OverlapCircle(topCheck.position, topCheckRadius, playerLayer);
-        if (playerOnTop != null)
+        if (playerOnTop != null && playerOnTop.CompareTag("Player"))
         {
             Die();
         }
@@ -57,18 +74,16 @@ public class SuitcaseBehaviour : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            /*PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(damage);
             }
-            */
         }
     }
 
     private void Die()
     {
-        // Trigger death animation or effects here if any
         Destroy(gameObject);
     }
 
@@ -79,6 +94,13 @@ public class SuitcaseBehaviour : MonoBehaviour
 
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(topCheck.position, topCheckRadius);
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(initialPosition, initialPosition + Vector2.right * patrolDistance);
+        Gizmos.DrawLine(initialPosition, initialPosition + Vector2.left * patrolDistance);
+
+        Gizmos.color = Color.red;
+        Vector2 direction = movingLeft ? Vector2.left : Vector2.right;
+        Gizmos.DrawLine(transform.position, transform.position + (Vector3)direction * obstacleCheckDistance);
     }
 }
-
