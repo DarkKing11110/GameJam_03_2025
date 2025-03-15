@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class BossHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour, IDamageable
 {
     [SerializeField]
     private float maxHealth;
+    [SerializeField]
     private float currentHealth;
 
     private void Start()
     {
         currentHealth = maxHealth;
     }
-
 
     public void TakeDamage(float damage)
     {
@@ -30,8 +30,8 @@ public class BossHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Boss ist gestorben!");
-        // Death Logic
-        Destroy(gameObject);
+        // DeathLogic
+        gameObject.SetActive(false);
     }
 
     public float GetCurrentHealth()

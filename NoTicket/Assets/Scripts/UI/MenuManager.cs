@@ -6,7 +6,8 @@ public class MenuManager : MonoBehaviour
 {
     [SerializeField]
     private GameObject pauseMenu;
-
+    [SerializeField]
+    private GameObject gameOverMenu;
     private bool isPaused = false;
 
     public void PauseGame(InputAction.CallbackContext context)
@@ -52,5 +53,12 @@ public class MenuManager : MonoBehaviour
 #else
         Application.Quit(); // Beendet das Spiel
 #endif
+    }
+    public void GameOver()
+    {
+        if (gameOverMenu != null)
+        {
+            gameOverMenu.SetActive(true);
+        }
     }
 }

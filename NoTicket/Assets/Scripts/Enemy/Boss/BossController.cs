@@ -2,25 +2,38 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
-    [SerializeField] 
+    [SerializeField]
     private float attackRange;
-    [SerializeField] 
+    [SerializeField]
     private float rangedAttackRange;
-    [SerializeField] 
+    [SerializeField]
     private float attackCooldown;
 
-    [SerializeField] 
+    [SerializeField]
     private ProjectilePool bossProjectilePool;
+    [SerializeField]
+    private Transform playerTransform;
+    [SerializeField]
+    private PlayerHealth playerHealth;
 
     private float lastAttackTime;
-    private Transform playerTransform;
-
-    private void Start()
-    {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-    }
 
     private void Update()
+    {
+        if (IsPlayerDead())
+        {
+            return;
+        }
+        DistanceCheck();
+    }
+
+    private bool IsPlayerDead()
+    {
+        return playerHealth == null || playerHealth.GetCurrentHealth() <= 0;
+    }
+
+    // Checks Player Distance 
+    private void DistanceCheck()
     {
         float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
 
@@ -28,19 +41,13 @@ public class BossController : MonoBehaviour
         {
             if (distanceToPlayer < attackRange)
             {
-                // Melee
+                // Melee-Angriff
             }
             else if (distanceToPlayer < rangedAttackRange)
             {
-                PerformAttack();
+                RangedAttack();
             }
         }
-    }
-
-    private void PerformAttack()
-    {
-        RangedAttack();
-        lastAttackTime = Time.time;
     }
 
     private void RangedAttack()
@@ -55,6 +62,6 @@ public class BossController : MonoBehaviour
 
             projectile.GetComponent<Projectile>().Fire(direction);
         }
+        lastAttackTime = Time.time;
     }
-
 }
