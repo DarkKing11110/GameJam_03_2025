@@ -1,9 +1,19 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    [Header("MainMenu References")]
+    [SerializeField]
+    private GameObject mainMenu;
+    [SerializeField]
+    private GameObject shopMenu;
+    [SerializeField]
+    private GameObject optionsMenu;
+
+    [Header("Level References")]
     [SerializeField]
     private GameObject pauseMenu;
     [SerializeField]
@@ -39,6 +49,23 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;
     }
+
+    public void ShopMenu()
+    {
+        mainMenu.SetActive(false);
+        shopMenu.SetActive(true);
+    }
+    public void OptionsMenu()
+    {
+        mainMenu.SetActive(false);
+        optionsMenu.SetActive(true);
+    }
+    public void BackToMainMenu()
+    {
+        shopMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        mainMenu.SetActive(true);
+    }
     public void Play()
     {
         SceneManager.LoadScene(1);
@@ -46,6 +73,13 @@ public class MenuManager : MonoBehaviour
         isPaused = false;
     }
 
+    public void GameOver()
+    {
+        if (gameOverMenu != null)
+        {
+            gameOverMenu.SetActive(true);
+        }
+    }
     public void Quit()
     {
 #if UNITY_EDITOR
@@ -53,12 +87,5 @@ public class MenuManager : MonoBehaviour
 #else
         Application.Quit(); // Beendet das Spiel
 #endif
-    }
-    public void GameOver()
-    {
-        if (gameOverMenu != null)
-        {
-            gameOverMenu.SetActive(true);
-        }
     }
 }
