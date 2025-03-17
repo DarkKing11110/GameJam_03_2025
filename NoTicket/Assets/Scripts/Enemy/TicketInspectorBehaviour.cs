@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class TicketInspectorBehaviour : MonoBehaviour
 {
@@ -10,12 +11,16 @@ public class TicketInspectorBehaviour : MonoBehaviour
     public float groundCheckRadius = 0.2f;
 
     private Transform player;
+    private NavMeshAgent agent;
     private Rigidbody2D rb;
     private bool isGrounded;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
@@ -27,13 +32,20 @@ public class TicketInspectorBehaviour : MonoBehaviour
 
     private void FollowPlayer()
     {
-        Vector2 direction = (player.position - transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
+        agent.speed = moveSpeed;
+        agent.SetDestination(player.position);
 
-        if (isGrounded && Mathf.Abs(player.position.y - transform.position.y) > 1.0f)
+        if (isGrounded && ShouldJump())
         {
             Jump();
         }
+    }
+
+    private bool ShouldJump()
+    {
+        // Check if there is an obstacle in front of the enemy
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * Mathf.Sign(player.position.x - transform.position.x), 1.0f, groundLayer);
+        return hit.collider != null && Mathf.Abs(player.position.y - transform.position.y) > 1.0f;
     }
 
     private void Jump()

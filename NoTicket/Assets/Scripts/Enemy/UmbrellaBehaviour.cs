@@ -3,11 +3,14 @@ using UnityEngine;
 public class UmbrellaBehaviour : MonoBehaviour
 {
     public float fallSpeed = 5.0f;
+    public float moveSpeed = 2.0f;
     public float damage = 10.0f;
+    public float detectionRadius = 5.0f;
     public LayerMask playerLayer;
     public LayerMask groundLayer;
 
     private bool isDiving = false;
+    private bool playerDetected = false;
     private Rigidbody2D rb;
 
     private void Start()
@@ -19,14 +22,33 @@ public class UmbrellaBehaviour : MonoBehaviour
     {
         if (!isDiving)
         {
-            FlyOverPlayer();
+            DetectPlayer();
+            if (playerDetected)
+            {
+                MoveLeft();
+                CheckForDive();
+            }
         }
     }
 
-    private void FlyOverPlayer()
+    private void DetectPlayer()
     {
-        Collider2D player = Physics2D.OverlapCircle(transform.position, 0.5f, playerLayer);
+        Collider2D player = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
         if (player != null)
+        {
+            playerDetected = true;
+        }
+    }
+
+    private void MoveLeft()
+    {
+        rb.linearVelocity = new Vector2(-moveSpeed, rb.linearVelocity.y);
+    }
+
+    private void CheckForDive()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, detectionRadius, playerLayer);
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
         {
             isDiving = true;
             rb.linearVelocity = new Vector2(0, -fallSpeed);
@@ -58,5 +80,13 @@ public class UmbrellaBehaviour : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, 0.5f);
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * detectionRadius);
     }
 }
+
+

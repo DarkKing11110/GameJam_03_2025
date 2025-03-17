@@ -3,40 +3,39 @@
   "WorkspaceRootPath": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|h:\\gitrepos\\gamejam_03_2025\\noticket\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|h:\\gitrepos\\gamejam_03_2025\\noticket\\assets\\scripts\\enemy\\ticketinspectorbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\ticketinspectorbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|h:\\gitrepos\\gamejam_03_2025\\noticket\\assets\\scripts\\enemy\\suitcasebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\suitcasebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\umbrellabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\umbrellabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Collectable\\CollectableBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\ui\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\combat\\projectiles\\projectilepool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\projectiles\\projectilepool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\combat\\projectiles\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\projectiles\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\PauseHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\boss\\bosscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\bosscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\ProjectilePool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\Projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|H:\\GitRepos\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\boss\\autoprojectileshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\autoprojectileshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,65 +45,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "suitcaseBehaviour.cs",
-              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
-              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwEsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TicketInspectorBehaviour.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\TicketInspectorBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\TicketInspectorBehaviour.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\TicketInspectorBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\TicketInspectorBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T22:49:28.701Z",
+              "WhenOpened": "2025-03-17T00:34:58.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
               "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T11:42:27.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T00:28:36.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BossHealth.cs",
-              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
-              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Title": "UmbrellaBehaviour.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\UmbrellaBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\UmbrellaBehaviour.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\UmbrellaBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\UmbrellaBehaviour.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwvy8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T11:27:27.153Z"
+              "WhenOpened": "2025-03-17T00:16:43.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProjectilePool.cs",
-              "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\ProjectilePool.cs",
-              "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\ProjectilePool.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAxwCoAAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "CollectableBase.cs",
+              "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Collectable\\CollectableBase.cs",
+              "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Collectable\\CollectableBase.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T09:08:44.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Projectile.cs",
-              "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\Projectile.cs",
-              "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\Projectile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T11:49:32.882Z"
+              "WhenOpened": "2025-03-16T10:25:40.055Z"
             },
             {
               "$type": "Document",
@@ -114,53 +101,57 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuManager.cs",
               "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\MenuManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\MenuManager.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwC0AAAAFAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAA1wEcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T11:09:14.015Z"
+              "WhenOpened": "2025-03-16T09:45:50.838Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "PauseHandler.cs",
-              "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\PauseHandler.cs",
-              "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\PauseHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Title": "BossController.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T10:57:27.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\GameManager.cs",
-              "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:08:04.415Z"
+              "WhenOpened": "2025-03-15T13:19:43.365Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PlayerCombat.cs",
-              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Title": "ProjectilePool.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\Projectiles\\ProjectilePool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Projectiles\\ProjectilePool.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\Projectiles\\ProjectilePool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Projectiles\\ProjectilePool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T09:06:46.887Z"
+              "WhenOpened": "2025-03-15T12:31:51.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AQIAAAQBAAAAAAAAAAAswDoAAAAFAAAA",
+              "DocumentIndex": 6,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\Projectiles\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Projectiles\\Projectile.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Combat\\Projectiles\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Projectiles\\Projectile.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAuwKUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T08:54:15.155Z"
+              "WhenOpened": "2025-03-15T11:59:00.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutoProjectileShooter.cs",
+              "DocumentMoniker": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\AutoProjectileShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boss\\AutoProjectileShooter.cs",
+              "ToolTip": "H:\\GitRepos\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\AutoProjectileShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Boss\\AutoProjectileShooter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:54:18.264Z"
             }
           ]
         }
