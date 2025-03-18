@@ -47,8 +47,10 @@ public class SaveGameManager : MonoBehaviour
         else
         {
             saveData = new SaveData();
+            Debug.Log("Kein Speicherstand gefunden.");
         }
     }
+
 
     public void LoadCheckpoint()
     {
@@ -64,10 +66,16 @@ public class SaveGameManager : MonoBehaviour
         }
     }
 
+    public Vector3 GetCheckpointPosition()
+    {
+        return saveData.CheckpointPosition;
+    }
+
     public void ResetAllProgress()
     {
         PlayerPrefs.DeleteKey("SaveData");
         PlayerPrefs.Save();
         saveData = new SaveData();
+        Debug.Log("Progress reset!");
     }
 }

@@ -22,8 +22,19 @@ public class PlayerSpawnManager : MonoBehaviour
 
     private void Start()
     {
-        SpawnAtPosition(defaultSpawnPoint);
+        Vector3 checkpoint = SaveGameManager.Instance.GetCheckpointPosition();
+
+        if (checkpoint != Vector3.zero)
+        {
+            SpawnAtPosition(checkpoint);
+        }
+        else
+        {
+            SpawnAtPosition(defaultSpawnPoint);
+        }
     }
+
+
 
     /// <summary>
     /// Teleports Player to a defined position

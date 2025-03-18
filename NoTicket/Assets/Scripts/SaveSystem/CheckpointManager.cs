@@ -20,6 +20,8 @@ public class CheckpointManager : MonoBehaviour
     public void SetCheckpoint(Vector3 checkpoint)
     {
         lastCheckpointPosition = checkpoint;
+
+        SaveGameManager.Instance.SaveGame(checkpoint);
     }
 
     public Vector3 GetLastCheckpointPosition()

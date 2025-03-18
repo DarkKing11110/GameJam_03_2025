@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -6,19 +6,32 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     [Header("MainMenu References")]
-    [SerializeField]
+    [SerializeField] 
     private GameObject mainMenu;
-    [SerializeField]
+    [SerializeField] 
     private GameObject shopMenu;
-    [SerializeField]
+    [SerializeField] 
     private GameObject optionsMenu;
+    [SerializeField] 
+    private GameObject continueButton;
 
     [Header("Level References")]
-    [SerializeField]
+    [SerializeField] 
     private GameObject pauseMenu;
-    [SerializeField]
+    [SerializeField] 
     private GameObject gameOverMenu;
     private bool isPaused = false;
+
+    private void Start()
+    {
+        if (continueButton != null)
+        {
+            continueButton.SetActive(PlayerPrefs.HasKey("SaveData"));
+        }
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
 
     public void PauseGame(InputAction.CallbackContext context)
     {
@@ -33,44 +46,28 @@ public class MenuManager : MonoBehaviour
             }
             else
             {
-                Time.timeScale = 1;
-                pauseMenu.SetActive(false);
+                Continue();
             }
         }
     }
+
     public void Continue()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
     }
-    public void MainMenu()
+
+    public void SaveGame()
     {
-        SceneManager.LoadScene(0);
-        Time.timeScale = 1f;
+        Vector3 playerPos = GameObject.FindWithTag("Player").transform.position;
+        SaveGameManager.Instance.SaveGame(playerPos);
+        Debug.Log("Game saved!");
     }
 
-    public void ShopMenu()
+    public void LoadCheckpoint()
     {
-        mainMenu.SetActive(false);
-        shopMenu.SetActive(true);
-    }
-    public void OptionsMenu()
-    {
-        mainMenu.SetActive(false);
-        optionsMenu.SetActive(true);
-    }
-    public void BackToMainMenu()
-    {
-        shopMenu.SetActive(false);
-        optionsMenu.SetActive(false);
-        mainMenu.SetActive(true);
-    }
-    public void Play()
-    {
-        SceneManager.LoadScene(1);
-        Time.timeScale = 1f;
-        isPaused = false;
+        SaveGameManager.Instance.LoadCheckpoint();
     }
 
     public void GameOver()
@@ -80,12 +77,68 @@ public class MenuManager : MonoBehaviour
             gameOverMenu.SetActive(true);
         }
     }
+
+    public void Play()
+    {
+        //if (PlayerPrefs.HasKey("SaveData"))
+        //{
+        //    SaveGameManager.Instance.LoadGame();
+        //}
+        //else
+        //{
+        //    Debug.Log("Kein Speicherstand gefunden, neues Spiel starten.");
+        //    SaveGameManager.Instance.ResetAllProgress();
+        //}
+
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void LoadGame()
+    {
+        if (PlayerPrefs.HasKey("SaveData"))
+        {
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            Debug.Log("No Save Data found");
+        }
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void ShopMenu()
+    {
+        mainMenu.SetActive(false);
+        shopMenu.SetActive(true);
+    }
+
+    public void OptionsMenu()
+    {
+        mainMenu.SetActive(false);
+        optionsMenu.SetActive(true);
+    }
+
+    public void BackToMainMenu()
+    {
+        shopMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        mainMenu.SetActive(true);
+    }
+
     public void Quit()
     {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Application.Quit(); // Beendet das Spiel
+        Application.Quit();
 #endif
     }
 }
