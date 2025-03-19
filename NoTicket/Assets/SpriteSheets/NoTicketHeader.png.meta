@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 982f428e1e6e85941bf35ca860e2949c
+guid: 5738feeafd8705e40b2a7393b46f9f44
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5550845838447538397
-    second: MainMenuBackgroundGIF_0
+      213: 3043383418781533204
+    second: NoTicketHeader_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainMenuBackgroundGIF_0
+      name: NoTicketHeader_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 25
+        y: 422
+        width: 683
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32f016c9e1f67f2b0800000000000000
-      internalID: -5550845838447538397
+      spriteID: 41489c748154c3a20800000000000000
+      internalID: 3043383418781533204
       vertices: []
       indices: 
       edges: []
