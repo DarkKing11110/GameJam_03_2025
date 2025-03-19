@@ -1919,7 +1919,7 @@ MonoBehaviour:
   minDistance: 10
   followDistance: 100
   target: {fileID: 1846268782}
-  offset: {x: 0, y: 10, z: 0}
+  offset: {x: 0, y: 0.7, z: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
