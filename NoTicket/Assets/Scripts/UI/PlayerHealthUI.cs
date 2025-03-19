@@ -4,15 +4,16 @@ using UnityEngine.UI;
 public class PlayerHealthUI : MonoBehaviour
 {
     [Header("Herzen Setup")]
-    [SerializeField]
-    private Image[] hearts;
-    [SerializeField]
+    [SerializeField] 
+    private GameObject heartPrefab;
+    [SerializeField] 
     private Sprite fullHeart;
-    [SerializeField]
+    [SerializeField] 
     private Sprite emptyHeart;
 
-    [SerializeField]
-    private PlayerHealth playerHealth;
+    [SerializeField] private PlayerHealth playerHealth;
+
+    private Image[] hearts;
 
     private void OnEnable()
     {
@@ -23,17 +24,62 @@ public class PlayerHealthUI : MonoBehaviour
     {
         playerHealth.OnHealthChanged -= UpdateHearts;
     }
+    private void Start()
+    {
+        CreateHearts();
+        UpdateHearts();
+    }
+
+    private void CreateHearts()
+    {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        int maxHealth = Mathf.RoundToInt(playerHealth.MaxHealth);
+
+        hearts = new Image[maxHealth];
+
+        for (int i = 0; i < maxHealth; i++)
+        {
+
+            GameObject heartObj = Instantiate(heartPrefab, transform);
+
+            if (heartObj == null)
+            {
+                continue;
+            }
+
+            Image heartImage = heartObj.GetComponent<Image>();
+
+            if (heartImage == null)
+            {
+                continue;
+            }
+
+            hearts[i] = heartImage;
+        }
+    }
 
     private void UpdateHearts()
     {
-        float currentHealth = playerHealth.GetCurrentHealth();
-        float maxHealth = playerHealth.MaxHealth;
+        int currentHealth = Mathf.RoundToInt(playerHealth.GetCurrentHealth());
+        int maxHealth = Mathf.RoundToInt(playerHealth.MaxHealth);
 
-        int healthPerHeart = Mathf.CeilToInt(maxHealth / hearts.Length);
+        if (hearts == null || hearts.Length == 0)
+        {
+            CreateHearts();
+        }
 
         for (int i = 0; i < hearts.Length; i++)
         {
-            if (currentHealth >= (i + 1) * healthPerHeart)
+            if (hearts[i] == null)
+            {
+                continue;
+            }
+
+            if (i < currentHealth)
             {
                 hearts[i].sprite = fullHeart;
             }
