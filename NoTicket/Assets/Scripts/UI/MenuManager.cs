@@ -6,28 +6,24 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     [Header("MainMenu References")]
-    [SerializeField] 
+    [SerializeField]
     private GameObject mainMenu;
-    [SerializeField] 
+    [SerializeField]
     private GameObject shopMenu;
-    [SerializeField] 
+    [SerializeField]
     private GameObject optionsMenu;
-    [SerializeField] 
+    [SerializeField]
     private GameObject continueButton;
 
     [Header("Level References")]
-    [SerializeField] 
+    [SerializeField]
     private GameObject pauseMenu;
-    [SerializeField] 
+    [SerializeField]
     private GameObject gameOverMenu;
     private bool isPaused = false;
 
     private void Start()
     {
-        if (continueButton != null)
-        {
-            continueButton.SetActive(PlayerPrefs.HasKey("SaveData"));
-        }
 
         Time.timeScale = 1f;
         isPaused = false;
@@ -58,18 +54,6 @@ public class MenuManager : MonoBehaviour
         isPaused = false;
     }
 
-    public void SaveGame()
-    {
-        Vector3 playerPos = GameObject.FindWithTag("Player").transform.position;
-        SaveGameManager.Instance.SaveGame(playerPos);
-        Debug.Log("Game saved!");
-    }
-
-    public void LoadCheckpoint()
-    {
-        SaveGameManager.Instance.LoadCheckpoint();
-    }
-
     public void GameOver()
     {
         if (gameOverMenu != null)
@@ -80,32 +64,71 @@ public class MenuManager : MonoBehaviour
 
     public void Play()
     {
-        //if (PlayerPrefs.HasKey("SaveData"))
-        //{
-        //    SaveGameManager.Instance.LoadGame();
-        //}
-        //else
-        //{
-        //    Debug.Log("Kein Speicherstand gefunden, neues Spiel starten.");
-        //    SaveGameManager.Instance.ResetAllProgress();
-        //}
-
         SceneManager.LoadScene(1);
         Time.timeScale = 1f;
         isPaused = false;
     }
-
     public void LoadGame()
     {
-        if (PlayerPrefs.HasKey("SaveData"))
+        SaveSystem saveSystem = SaveSystem.Instance;
+
+        if (saveSystem == null)
         {
-            SceneManager.LoadScene(1);
+            Debug.LogError("SaveSystem ist nicht verfügbar!");
+            return;
+        }
+
+        SaveData loadedData = saveSystem.Load();
+
+        if (loadedData != null)
+        {
+
+            GameObject player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+
+                Vector3 loadedPosition = new Vector3(loadedData.PlayerPosition.x, loadedData.PlayerPosition.y, loadedData.PlayerPosition.z);
+
+                player.transform.position = loadedPosition;
+                Debug.Log("Spielerposition geladen: " + loadedPosition);
+
+                CollectableManager.Instance.SetCoinCount(loadedData.Coins);
+                CollectableManager.Instance.SetLolliCount(loadedData.Lollis);
+
+                Debug.Log("Coins geladen: " + loadedData.Coins);
+                Debug.Log("Lollis geladen: " + loadedData.Lollis);
+            }
+
+
+            StartCoroutine(LoadSceneAfterDelay(1));
         }
         else
         {
-            Debug.Log("No Save Data found");
+            Debug.Log("Kein Spiel gespeichert. Starte ein neues Spiel.");
+            StartNewGame();
         }
     }
+
+    private IEnumerator LoadSceneAfterDelay(int sceneIndex)
+    {
+
+        yield return new WaitForEndOfFrame(); 
+
+        SceneManager.LoadScene(sceneIndex);
+    }
+
+
+
+
+    public void StartNewGame()
+    {
+        SaveSystem.Instance.Save(0, 0, Vector3.zero);
+        SceneManager.LoadScene(1);
+    }
+
+
+
+
 
     public void MainMenu()
     {
