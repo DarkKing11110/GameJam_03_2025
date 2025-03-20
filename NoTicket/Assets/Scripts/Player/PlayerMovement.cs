@@ -33,7 +33,9 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Dodge Settings")]
     [SerializeField]
-    private float dodgeForce;
+    private float dodgeSpeed;
+    [SerializeField]
+    private float dodgeTime;
     [SerializeField]
     private float dodgeCooldown;
     private float dodgeCooldownTimer;
@@ -46,11 +48,10 @@ public class PlayerMovement : MonoBehaviour
     private bool isCrouching = false;
     private bool isDodging = false;
 
-    private float originalColliderHeight;
     private float crouchColliderHeight;
     private float dodgeColliderHeight;
-    private float originalColliderRadius;
-    private float crouchColliderRadius;
+    private float originalColliderHeight;
+    private Vector2 originalColliderOffset;
 
     private bool isJumping = false;
     private bool isFalling = false;
@@ -62,13 +63,13 @@ public class PlayerMovement : MonoBehaviour
 
         rb.gravityScale = normalGravityScale;
 
+        // Original collider size
         originalColliderHeight = playerCollider.size.y;
-        originalColliderRadius = playerCollider.size.x / 2;
+        originalColliderOffset = playerCollider.offset;
 
-        crouchColliderHeight = originalColliderHeight / 1.88f;
-        crouchColliderRadius = originalColliderRadius;
-
-        dodgeColliderHeight = originalColliderHeight / 1.88f;
+        // For crouching and dodging
+        crouchColliderHeight = originalColliderHeight * 0.5f;
+        dodgeColliderHeight = originalColliderHeight * 0.5f;
     }
 
     private void Update()
@@ -151,7 +152,6 @@ public class PlayerMovement : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 jumpCount = 1;
 
-                // reset collider if player jumps
                 ResetColliderSize();
             }
             else
@@ -184,16 +184,16 @@ public class PlayerMovement : MonoBehaviour
         horizontal = input.x;
     }
 
-    public void Crouch(InputAction.CallbackContext context)
+    private void Crouch(InputAction.CallbackContext context)
     {
-        if (context.performed && !isJumping) // Check if player is in air
+        if (context.performed && !isJumping)
         {
             isCrouching = true;
             currentSpeed = crouchSpeed;
 
-            // set smaller collider if player crouchs
-            playerCollider.size = new Vector2(crouchColliderRadius * 2, crouchColliderHeight);
-            playerCollider.offset = new Vector2(playerCollider.offset.x, -(originalColliderHeight - crouchColliderHeight) / 2); // Offset anpassen
+            playerCollider.size = new Vector2(playerCollider.size.x, crouchColliderHeight);
+
+            playerCollider.offset = new Vector2(playerCollider.offset.x, (originalColliderHeight - crouchColliderHeight) / 2);
         }
 
         if (context.canceled)
@@ -205,7 +205,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Dodge(InputAction.CallbackContext context)
+    private void Dodge(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
@@ -216,26 +216,14 @@ public class PlayerMovement : MonoBehaviour
                     isDodging = true;
                     dodgeCooldownTimer = dodgeCooldown;
 
-                    // set smaller collider if player dodges
-                    playerCollider.size = new Vector2(crouchColliderRadius * 2, dodgeColliderHeight);
-                    playerCollider.offset = new Vector2(playerCollider.offset.x, -(originalColliderHeight - dodgeColliderHeight) / 2); // Offset anpassen
+                    playerCollider.size = new Vector2(playerCollider.size.x, dodgeColliderHeight);
+                    playerCollider.offset = new Vector2(playerCollider.offset.x, (originalColliderHeight - dodgeColliderHeight) / 2);
 
-                    // dodge direction and speed
-                    float dodgeDirection = 0f;
+                    float dodgeDirection = isFacingRight ? 1f : -1f;
 
-                    if (isFacingRight)
-                    {
-                        dodgeDirection = 1f;
-                    }
-                    else
-                    {
-                        dodgeDirection = -1f;
-                    }
+                    rb.linearVelocity = new Vector2(dodgeDirection * (groundSpeed * dodgeSpeed), rb.linearVelocity.y);
 
-                    // while dodge double speed 
-                    rb.linearVelocity = new Vector2(dodgeDirection * (groundSpeed * 2), rb.linearVelocity.y);
-
-                    Invoke(nameof(EndDodge), 0.3f); // dodge duration
+                    Invoke(nameof(EndDodge), dodgeTime);
                 }
             }
         }
@@ -249,9 +237,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void ResetColliderSize()
     {
-        // set collider to original size
-        playerCollider.size = new Vector2(originalColliderRadius * 2, originalColliderHeight);
-        playerCollider.offset = new Vector2(playerCollider.offset.x, 0f);
+        playerCollider.size = new Vector2(playerCollider.size.x, originalColliderHeight);
+        playerCollider.offset = originalColliderOffset;
     }
 
     private bool IsGrounded()
