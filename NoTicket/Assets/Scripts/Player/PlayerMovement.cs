@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask GroundLayer;
     private Rigidbody2D rb;
     private CapsuleCollider2D playerCollider;
+    private PlayerAnimationController animationController;
 
     [Header("Movement Settings")]
     [SerializeField]
@@ -60,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<CapsuleCollider2D>();
+        animationController = GetComponentInChildren<PlayerAnimationController>();
 
         rb.gravityScale = normalGravityScale;
 
@@ -116,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
                 isJumping = true;
                 isFalling = false;
             }
-            // check for isFalling
+            // Check for isFalling
             else if (rb.linearVelocity.y < -0.1f)
             {
                 isFalling = true;
@@ -151,7 +153,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 jumpCount = 1;
-
+                animationController.SetIsJumping(true);
                 ResetColliderSize();
             }
             else
@@ -160,11 +162,13 @@ public class PlayerMovement : MonoBehaviour
                 {
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                     jumpCount++;
+                    animationController.SetIsJumping(true);
                 }
                 else if (timeOnGround < 0.1f && jumpCount == 1)
                 {
                     rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                     jumpCount++;
+                    animationController.SetIsJumping(true);
                 }
             }
         }
@@ -175,6 +179,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
             }
+            animationController.SetIsJumping(false);
         }
     }
 
@@ -182,6 +187,16 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 input = context.ReadValue<Vector2>();
         horizontal = input.x;
+
+        if (IsGrounded())
+        {
+            bool isRunning = Mathf.Abs(horizontal) > 0.1f;
+            animationController.SetIsRunning(isRunning);
+        }
+        else
+        {
+            animationController.SetIsRunning(false);
+        }
     }
 
     private void Crouch(InputAction.CallbackContext context)
@@ -190,9 +205,9 @@ public class PlayerMovement : MonoBehaviour
         {
             isCrouching = true;
             currentSpeed = crouchSpeed;
+            animationController.SetIsCrouching(true);
 
             playerCollider.size = new Vector2(playerCollider.size.x, crouchColliderHeight);
-
             playerCollider.offset = new Vector2(playerCollider.offset.x, (originalColliderHeight - crouchColliderHeight) / 2);
         }
 
@@ -200,7 +215,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isCrouching = false;
             currentSpeed = groundSpeed;
-
+            animationController.SetIsCrouching(false);
             ResetColliderSize();
         }
     }
@@ -222,7 +237,7 @@ public class PlayerMovement : MonoBehaviour
                     float dodgeDirection = isFacingRight ? 1f : -1f;
 
                     rb.linearVelocity = new Vector2(dodgeDirection * (groundSpeed * dodgeSpeed), rb.linearVelocity.y);
-
+                    animationController.SetIsCrouching(true);
                     Invoke(nameof(EndDodge), dodgeTime);
                 }
             }
@@ -232,6 +247,7 @@ public class PlayerMovement : MonoBehaviour
     private void EndDodge()
     {
         isDodging = false;
+        animationController.SetIsCrouching(false);
         ResetColliderSize();
     }
 
