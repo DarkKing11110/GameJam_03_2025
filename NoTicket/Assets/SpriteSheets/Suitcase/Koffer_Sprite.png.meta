@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: d7bba010097a95e4dbbe9057dd71b3ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7829863797958214524
+    second: Koffer_Sprite_0
+  - first:
+      213: -5507795019971487073
+    second: Koffer_Sprite_1
+  - first:
+      213: -5899431338616484924
+    second: Koffer_Sprite_2
+  - first:
+      213: -6247011963692835170
+    second: Koffer_Sprite_3
+  - first:
+      213: -8196220458892747424
+    second: Koffer_Sprite_4
+  - first:
+      213: 7787483346653005965
+    second: Koffer_Sprite_5
+  - first:
+      213: 2612517366561696813
+    second: Koffer_Sprite_6
+  - first:
+      213: -3898715082141785454
+    second: Koffer_Sprite_7
+  - first:
+      213: 6513108596138025714
+    second: Koffer_Sprite_8
+  - first:
+      213: 317751429010911196
+    second: Koffer_Sprite_9
+  - first:
+      213: -7484349079528553636
+    second: Koffer_Sprite_10
+  - first:
+      213: 5867771184291101992
+    second: Koffer_Sprite_11
+  - first:
+      213: -222080139512489007
+    second: Koffer_Sprite_12
+  - first:
+      213: 8205125190215752950
+    second: Koffer_Sprite_13
+  - first:
+      213: -7674208935841670977
+    second: Koffer_Sprite_14
+  - first:
+      213: -6299604596723645419
+    second: Koffer_Sprite_15
+  - first:
+      213: 5387864380739994783
+    second: Koffer_Sprite_16
+  - first:
+      213: -5510727923416501413
+    second: Koffer_Sprite_17
+  - first:
+      213: 6257731263202277013
+    second: Koffer_Sprite_18
+  - first:
+      213: 4286799750381454612
+    second: Koffer_Sprite_19
+  - first:
+      213: 1856275640014929749
+    second: Koffer_Sprite_20
+  - first:
+      213: 748895231433212065
+    second: Koffer_Sprite_21
+  - first:
+      213: 8371701902290075778
+    second: Koffer_Sprite_22
+  - first:
+      213: 2067318007086144691
+    second: Koffer_Sprite_23
+  - first:
+      213: -5614323349176363336
+    second: Koffer_Sprite_24
+  - first:
+      213: -2567271637460622585
+    second: Koffer_Sprite_25
+  - first:
+      213: 5184224780676470640
+    second: Koffer_Sprite_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Koffer_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 5176
+        width: 746
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c72033c5cb65390800000000000000
+      internalID: -7829863797958214524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 5176
+        width: 746
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a1fe26c916093b0800000000000000
+      internalID: -5507795019971487073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 5176
+        width: 751
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb05fc3472012ea0800000000000000
+      internalID: -5899431338616484924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 5182
+        width: 763
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e197497b72e49a0800000000000000
+      internalID: -6247011963692835170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 4038
+        y: 5182
+        width: 772
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d98e60bec214e80800000000000000
+      internalID: -8196220458892747424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4153
+        width: 794
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88c58b08d2b21c60800000000000000
+      internalID: 7787483346653005965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 4155
+        width: 809
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ce27304b6814420800000000000000
+      internalID: 2612517366561696813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 4157
+        width: 825
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2922b700a4bf4e9c0800000000000000
+      internalID: -3898715082141785454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 4157
+        width: 839
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2a950a2c5336a50800000000000000
+      internalID: 6513108596138025714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 4157
+        width: 839
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf611dbd31e86400800000000000000
+      internalID: 317751429010911196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3129
+        width: 841
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53cdab7a20422890800000000000000
+      internalID: -7484349079528553636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3129
+        width: 838
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82db1f6adc28e6150800000000000000
+      internalID: 5867771184291101992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 3119
+        width: 810
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db50bc2a430becf0800000000000000
+      internalID: -222080139512489007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 3118
+        width: 794
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc5b6c43e57ed170800000000000000
+      internalID: 8205125190215752950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 3988
+        y: 3120
+        width: 791
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8570fe1abbf7590800000000000000
+      internalID: -7674208935841670977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2090
+        width: 792
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5148edafefe4398a0800000000000000
+      internalID: -6299604596723645419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 2092
+        width: 793
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94ccffab1a85ca40800000000000000
+      internalID: 5387864380739994783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2092
+        width: 814
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53fee69626f583b0800000000000000
+      internalID: -5510727923416501413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 2092
+        width: 813
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5963703dd6de7d650800000000000000
+      internalID: 6257731263202277013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 2092
+        width: 817
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41548b819a5cd7b30800000000000000
+      internalID: 4286799750381454612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1064
+        width: 817
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ffc401cd0d2c910800000000000000
+      internalID: 1856275640014929749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1064
+        width: 800
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a08f83ce3c946a00800000000000000
+      internalID: 748895231433212065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 1064
+        width: 786
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280467366824e2470800000000000000
+      internalID: 8371701902290075778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 1064
+        width: 772
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc532a36c690bc10800000000000000
+      internalID: 2067318007086144691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 1064
+        width: 764
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6592ee8aae512b0800000000000000
+      internalID: -5614323349176363336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 36
+        width: 752
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70369373c083f5cd0800000000000000
+      internalID: -2567271637460622585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koffer_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 36
+        width: 746
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0779ff788f012f740800000000000000
+      internalID: 5184224780676470640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

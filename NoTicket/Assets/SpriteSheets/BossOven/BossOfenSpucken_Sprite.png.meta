@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: df570f0b6a72a814dbd4809a0e25c07f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2062046026541539437
+    second: BossOfenSpucken_Sprite_0
+  - first:
+      213: -2019882839284513293
+    second: BossOfenSpucken_Sprite_1
+  - first:
+      213: 941236480448280399
+    second: BossOfenSpucken_Sprite_2
+  - first:
+      213: -8177389364103293951
+    second: BossOfenSpucken_Sprite_3
+  - first:
+      213: -7922302240840462725
+    second: BossOfenSpucken_Sprite_4
+  - first:
+      213: -6839306413340343214
+    second: BossOfenSpucken_Sprite_5
+  - first:
+      213: -479848477226331939
+    second: BossOfenSpucken_Sprite_6
+  - first:
+      213: -1894077057518774747
+    second: BossOfenSpucken_Sprite_7
+  - first:
+      213: 438275882632052264
+    second: BossOfenSpucken_Sprite_8
+  - first:
+      213: -9055105903389043171
+    second: BossOfenSpucken_Sprite_9
+  - first:
+      213: -4790647904799122321
+    second: BossOfenSpucken_Sprite_10
+  - first:
+      213: -6784604926037339431
+    second: BossOfenSpucken_Sprite_11
+  - first:
+      213: 2818956673212207599
+    second: BossOfenSpucken_Sprite_12
+  - first:
+      213: 2809694205542398436
+    second: BossOfenSpucken_Sprite_13
+  - first:
+      213: 6157291082342540421
+    second: BossOfenSpucken_Sprite_14
+  - first:
+      213: -7173115568409647660
+    second: BossOfenSpucken_Sprite_15
+  - first:
+      213: 6217179267554002418
+    second: BossOfenSpucken_Sprite_16
+  - first:
+      213: -412676102595127562
+    second: BossOfenSpucken_Sprite_17
+  - first:
+      213: -1845172220170652374
+    second: BossOfenSpucken_Sprite_18
+  - first:
+      213: -7409804960408992112
+    second: BossOfenSpucken_Sprite_19
+  - first:
+      213: 1325114725958876163
+    second: BossOfenSpucken_Sprite_20
+  - first:
+      213: -6872130511124820049
+    second: BossOfenSpucken_Sprite_21
+  - first:
+      213: 7357109168452056815
+    second: BossOfenSpucken_Sprite_22
+  - first:
+      213: 5114756601732133183
+    second: BossOfenSpucken_Sprite_23
+  - first:
+      213: -6895726449427387953
+    second: BossOfenSpucken_Sprite_24
+  - first:
+      213: -4122693372386643798
+    second: BossOfenSpucken_Sprite_25
+  - first:
+      213: -2761212187469422453
+    second: BossOfenSpucken_Sprite_26
+  - first:
+      213: -4612242289982406043
+    second: BossOfenSpucken_Sprite_27
+  - first:
+      213: -8769886803356211391
+    second: BossOfenSpucken_Sprite_28
+  - first:
+      213: 7420626601039729589
+    second: BossOfenSpucken_Sprite_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 9749
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f5c7560142263e0800000000000000
+      internalID: -2062046026541539437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 9749
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f50a8c624fe7f3e0800000000000000
+      internalID: -2019882839284513293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 9749
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4732c29791ff0d00800000000000000
+      internalID: 941236480448280399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 5946
+        y: 9749
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104d092f2b3148e80800000000000000
+      internalID: -8177389364103293951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 9749
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e4c6b06145e0290800000000000000
+      internalID: -7922302240840462725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 7829
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2544cc2ad07e511a0800000000000000
+      internalID: -6839306413340343214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 7829
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd099e03a5c3759f0800000000000000
+      internalID: -479848477226331939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 7829
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526506193f2e6b5e0800000000000000
+      internalID: -1894077057518774747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 5946
+        y: 7829
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e77e9d791151600800000000000000
+      internalID: 438275882632052264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 7829
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1614f8282dc55280800000000000000
+      internalID: -9055105903389043171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 5909
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c9a7ecc13348db0800000000000000
+      internalID: -4790647904799122321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 5909
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2dd2224cd38d1a0800000000000000
+      internalID: -6784604926037339431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 5909
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1d708a822fe1720800000000000000
+      internalID: 2818956673212207599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 5946
+        y: 5909
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9f3d85ef90ef620800000000000000
+      internalID: 2809694205542398436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 5909
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58425bddd97137550800000000000000
+      internalID: 6157291082342540421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3989
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d56e143569f37c90800000000000000
+      internalID: -7173115568409647660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 3989
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5ca739a9bd74650800000000000000
+      internalID: 6217179267554002418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 3989
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f656896541e54af0800000000000000
+      internalID: -412676102595127562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 5946
+        y: 3989
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a253f4354a1a466e0800000000000000
+      internalID: -1845172220170652374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 3989
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09605e7b5a51b2990800000000000000
+      internalID: -7409804960408992112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2069
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cfa6f82d0c36210800000000000000
+      internalID: 1325114725958876163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 2069
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf0842d5b941a0a0800000000000000
+      internalID: -6872130511124820049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 2069
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6ba5f1fc3b91660800000000000000
+      internalID: 7357109168452056815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 5946
+        y: 2069
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31f3d6b7044bf640800000000000000
+      internalID: 5114756601732133183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 2069
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc96d9154557d40a0800000000000000
+      internalID: -6895726449427387953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 149
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa07905883049c6c0800000000000000
+      internalID: -4122693372386643798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 149
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80e76025243ea9d0800000000000000
+      internalID: -2761212187469422453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 149
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562809fe2160effb0800000000000000
+      internalID: -4612242289982406043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 5946
+        y: 149
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147219dca6a1b4680800000000000000
+      internalID: -8769886803356211391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossOfenSpucken_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 149
+        width: 1631
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b399c5d39c5bf660800000000000000
+      internalID: 7420626601039729589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,17 +12,22 @@ public class SuitcaseBehaviour : MonoBehaviour
     public float obstacleCheckDistance = 0.1f;
 
     private bool movingLeft = true; // Start moving left
+    private bool isDeath = false;
     private Rigidbody2D rb;
+    private Animator animator;
     private Vector2 initialPosition;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         initialPosition = transform.position;
     }
 
     private void Update()
     {
+        if (isDeath) return; // Stoppe alle Aktionen, wenn der Gegner tot ist
+
         Patrol();
         CheckPlayerOnTop();
     }
@@ -33,6 +38,7 @@ public class SuitcaseBehaviour : MonoBehaviour
         if (IsObstacleInFront())
         {
             movingLeft = !movingLeft;
+            Flip();
         }
 
         if (movingLeft)
@@ -41,6 +47,7 @@ public class SuitcaseBehaviour : MonoBehaviour
             if (Vector2.Distance(initialPosition, transform.position) >= patrolDistance)
             {
                 movingLeft = false;
+                Flip();
             }
         }
         else
@@ -49,6 +56,7 @@ public class SuitcaseBehaviour : MonoBehaviour
             if (Vector2.Distance(initialPosition, transform.position) <= 0.1f)
             {
                 movingLeft = true;
+                Flip();
             }
         }
     }
@@ -79,12 +87,25 @@ public class SuitcaseBehaviour : MonoBehaviour
             {
                 playerHealth.TakeDamage(damage);
             }
+            Die();
         }
     }
 
     private void Die()
     {
+        isDeath = true;
+        animator.SetBool("isDeath", true); // Setze den booleschen Wert im Animator
+        //rb.linearVelocity = Vector2.zero; // Stoppe die Bewegung
+        // Zerst�re das GameObject nach der Dauer der Todesanimation
+        //Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
         Destroy(gameObject);
+    }
+
+    private void Flip()
+    {
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
     }
 
     private void OnDrawGizmosSelected()
@@ -104,3 +125,5 @@ public class SuitcaseBehaviour : MonoBehaviour
         Gizmos.DrawLine(transform.position, transform.position + (Vector3)direction * obstacleCheckDistance);
     }
 }
+
+

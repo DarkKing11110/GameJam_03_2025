@@ -1,0 +1,1415 @@
+fileFormatVersion: 2
+guid: 5d552cf93c457a649ad6d5a8d8c1d075
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 849962970846839303
+    second: GegnerDeath_Sprite_0
+  - first:
+      213: -6081673527187712315
+    second: GegnerDeath_Sprite_1
+  - first:
+      213: -6925260600191612137
+    second: GegnerDeath_Sprite_2
+  - first:
+      213: 1748508133720354578
+    second: GegnerDeath_Sprite_3
+  - first:
+      213: -4630335270668767833
+    second: GegnerDeath_Sprite_4
+  - first:
+      213: 6061016370319919431
+    second: GegnerDeath_Sprite_5
+  - first:
+      213: 1798497457571794988
+    second: GegnerDeath_Sprite_6
+  - first:
+      213: -6287981946914445867
+    second: GegnerDeath_Sprite_7
+  - first:
+      213: -2915082281346389317
+    second: GegnerDeath_Sprite_8
+  - first:
+      213: -7695130232657132775
+    second: GegnerDeath_Sprite_9
+  - first:
+      213: -5831138558298205215
+    second: GegnerDeath_Sprite_10
+  - first:
+      213: 3506149244766168915
+    second: GegnerDeath_Sprite_11
+  - first:
+      213: 3474978659955176572
+    second: GegnerDeath_Sprite_12
+  - first:
+      213: -366870817050860215
+    second: GegnerDeath_Sprite_13
+  - first:
+      213: 7290637559501592967
+    second: GegnerDeath_Sprite_14
+  - first:
+      213: -7959508743036375160
+    second: GegnerDeath_Sprite_15
+  - first:
+      213: -7357948648849081088
+    second: GegnerDeath_Sprite_16
+  - first:
+      213: 5364982510671745708
+    second: GegnerDeath_Sprite_17
+  - first:
+      213: -8696232960252990265
+    second: GegnerDeath_Sprite_18
+  - first:
+      213: 2891796269425676053
+    second: GegnerDeath_Sprite_19
+  - first:
+      213: 8350217241438446822
+    second: GegnerDeath_Sprite_20
+  - first:
+      213: 3886019949683365299
+    second: GegnerDeath_Sprite_21
+  - first:
+      213: -6031129424535631527
+    second: GegnerDeath_Sprite_22
+  - first:
+      213: -6029779305569061677
+    second: GegnerDeath_Sprite_23
+  - first:
+      213: -5314895806214006290
+    second: GegnerDeath_Sprite_24
+  - first:
+      213: -7869735205572536898
+    second: GegnerDeath_Sprite_25
+  - first:
+      213: 7127156401330223602
+    second: GegnerDeath_Sprite_26
+  - first:
+      213: 3221447921971278480
+    second: GegnerDeath_Sprite_27
+  - first:
+      213: -5304335260441240652
+    second: GegnerDeath_Sprite_28
+  - first:
+      213: 3463163442902377861
+    second: GegnerDeath_Sprite_29
+  - first:
+      213: -5920986072594826546
+    second: GegnerDeath_Sprite_30
+  - first:
+      213: 5676616412354679005
+    second: GegnerDeath_Sprite_31
+  - first:
+      213: 7009706310794710390
+    second: GegnerDeath_Sprite_32
+  - first:
+      213: -8599647600730023813
+    second: GegnerDeath_Sprite_33
+  - first:
+      213: 8044362919088542573
+    second: GegnerDeath_Sprite_34
+  - first:
+      213: 8135224829304047236
+    second: GegnerDeath_Sprite_35
+  - first:
+      213: 493475182065310889
+    second: GegnerDeath_Sprite_36
+  - first:
+      213: -4612161042563149234
+    second: GegnerDeath_Sprite_37
+  - first:
+      213: 6108964698227176782
+    second: GegnerDeath_Sprite_38
+  - first:
+      213: -7713975413772486492
+    second: GegnerDeath_Sprite_39
+  - first:
+      213: -6369871950440085067
+    second: GegnerDeath_Sprite_40
+  - first:
+      213: -5134002453714042995
+    second: GegnerDeath_Sprite_41
+  - first:
+      213: 4453855134446096768
+    second: GegnerDeath_Sprite_42
+  - first:
+      213: 5912973769895543010
+    second: GegnerDeath_Sprite_43
+  - first:
+      213: -5834611567857700461
+    second: GegnerDeath_Sprite_44
+  - first:
+      213: -1945994012808243042
+    second: GegnerDeath_Sprite_45
+  - first:
+      213: -2282412087124141823
+    second: GegnerDeath_Sprite_46
+  - first:
+      213: -1878096567653009548
+    second: GegnerDeath_Sprite_47
+  - first:
+      213: 4830697162934423871
+    second: GegnerDeath_Sprite_48
+  - first:
+      213: 6101239511684040456
+    second: GegnerDeath_Sprite_49
+  - first:
+      213: -619593825207089151
+    second: GegnerDeath_Sprite_50
+  - first:
+      213: 5808919623813348420
+    second: GegnerDeath_Sprite_51
+  - first:
+      213: -8702514937133228389
+    second: GegnerDeath_Sprite_52
+  - first:
+      213: -2092183874607612771
+    second: GegnerDeath_Sprite_53
+  - first:
+      213: 7258194923449491145
+    second: GegnerDeath_Sprite_54
+  - first:
+      213: 3052171278536019835
+    second: GegnerDeath_Sprite_55
+  - first:
+      213: 4297127122847658027
+    second: GegnerDeath_Sprite_56
+  - first:
+      213: -9065139796417160323
+    second: GegnerDeath_Sprite_57
+  - first:
+      213: 1940221054986283621
+    second: GegnerDeath_Sprite_58
+  - first:
+      213: -596541571732580456
+    second: GegnerDeath_Sprite_59
+  - first:
+      213: -7195145642510528972
+    second: GegnerDeath_Sprite_60
+  - first:
+      213: 2969300804241335157
+    second: GegnerDeath_Sprite_61
+  - first:
+      213: -2137435207019224914
+    second: GegnerDeath_Sprite_62
+  - first:
+      213: -214882323370213151
+    second: GegnerDeath_Sprite_63
+  - first:
+      213: -5862271914074526259
+    second: GegnerDeath_Sprite_64
+  - first:
+      213: 245088285445904895
+    second: GegnerDeath_Sprite_65
+  - first:
+      213: 7709939837845332009
+    second: GegnerDeath_Sprite_66
+  - first:
+      213: -1267973030595159426
+    second: GegnerDeath_Sprite_67
+  - first:
+      213: 2152486575945832702
+    second: GegnerDeath_Sprite_68
+  - first:
+      213: 6292761618140673696
+    second: GegnerDeath_Sprite_69
+  - first:
+      213: 7547524088480498208
+    second: GegnerDeath_Sprite_70
+  - first:
+      213: 5635468739477478214
+    second: GegnerDeath_Sprite_71
+  - first:
+      213: -5992625764401865457
+    second: GegnerDeath_Sprite_72
+  - first:
+      213: -3784241987896354304
+    second: GegnerDeath_Sprite_73
+  - first:
+      213: 4772056945958370789
+    second: GegnerDeath_Sprite_74
+  - first:
+      213: -4288798582825908529
+    second: GegnerDeath_Sprite_75
+  - first:
+      213: 7969584059206144219
+    second: GegnerDeath_Sprite_76
+  - first:
+      213: 3525256560108872332
+    second: GegnerDeath_Sprite_77
+  - first:
+      213: -814526197064030834
+    second: GegnerDeath_Sprite_78
+  - first:
+      213: 3630178835302096051
+    second: GegnerDeath_Sprite_79
+  - first:
+      213: 6578068958626947049
+    second: GegnerDeath_Sprite_80
+  - first:
+      213: -7160081864489858121
+    second: GegnerDeath_Sprite_81
+  - first:
+      213: 3450076865390323086
+    second: GegnerDeath_Sprite_82
+  - first:
+      213: 5039281591463469750
+    second: GegnerDeath_Sprite_83
+  - first:
+      213: -2155263354134016783
+    second: GegnerDeath_Sprite_84
+  - first:
+      213: -685853798893791401
+    second: GegnerDeath_Sprite_85
+  - first:
+      213: 5282338127538271147
+    second: GegnerDeath_Sprite_86
+  - first:
+      213: 795156737683979414
+    second: GegnerDeath_Sprite_87
+  - first:
+      213: 8591197132075472931
+    second: GegnerDeath_Sprite_88
+  - first:
+      213: -7758164874366461256
+    second: GegnerDeath_Sprite_89
+  - first:
+      213: 8156950973272560569
+    second: GegnerDeath_Sprite_90
+  - first:
+      213: -4589370923643607593
+    second: GegnerDeath_Sprite_91
+  - first:
+      213: 4377490789557543886
+    second: GegnerDeath_Sprite_92
+  - first:
+      213: 7607272981781659190
+    second: GegnerDeath_Sprite_93
+  - first:
+      213: -2703807764243232575
+    second: GegnerDeath_Sprite_94
+  - first:
+      213: 6012621119951139988
+    second: GegnerDeath_Sprite_95
+  - first:
+      213: 3208583588675989144
+    second: GegnerDeath_Sprite_96
+  - first:
+      213: 5089968032945071129
+    second: GegnerDeath_Sprite_97
+  - first:
+      213: -6659218944899076599
+    second: GegnerDeath_Sprite_98
+  - first:
+      213: -6140728349188389302
+    second: GegnerDeath_Sprite_99
+  - first:
+      213: 3066859836829545524
+    second: GegnerDeath_Sprite_100
+  - first:
+      213: 4029299137644790988
+    second: GegnerDeath_Sprite_101
+  - first:
+      213: 1541704827997498252
+    second: GegnerDeath_Sprite_102
+  - first:
+      213: -5950549530020476256
+    second: GegnerDeath_Sprite_103
+  - first:
+      213: 2170747662584248392
+    second: GegnerDeath_Sprite_104
+  - first:
+      213: -1768548858336075042
+    second: GegnerDeath_Sprite_105
+  - first:
+      213: -8794530364337250145
+    second: GegnerDeath_Sprite_106
+  - first:
+      213: 4906382511039453845
+    second: GegnerDeath_Sprite_107
+  - first:
+      213: 2411669634113117795
+    second: GegnerDeath_Sprite_108
+  - first:
+      213: 1594624327648507960
+    second: GegnerDeath_Sprite_109
+  - first:
+      213: -1373254850654653871
+    second: GegnerDeath_Sprite_110
+  - first:
+      213: -5482325702619143963
+    second: GegnerDeath_Sprite_111
+  - first:
+      213: 2969114624670442884
+    second: GegnerDeath_Sprite_112
+  - first:
+      213: -9174496572703166532
+    second: GegnerDeath_Sprite_113
+  - first:
+      213: 1258603005809847109
+    second: GegnerDeath_Sprite_114
+  - first:
+      213: 9161908564673015856
+    second: GegnerDeath_Sprite_115
+  - first:
+      213: -4520185618468896715
+    second: GegnerDeath_Sprite_116
+  - first:
+      213: -4607661222740319587
+    second: GegnerDeath_Sprite_117
+  - first:
+      213: -4932953138060431543
+    second: GegnerDeath_Sprite_118
+  - first:
+      213: -7303823735279219288
+    second: GegnerDeath_Sprite_119
+  - first:
+      213: -4272717538886735249
+    second: GegnerDeath_Sprite_120
+  - first:
+      213: 2792016606556012985
+    second: GegnerDeath_Sprite_121
+  - first:
+      213: 4925359452333788997
+    second: GegnerDeath_Sprite_122
+  - first:
+      213: -2583819833372069508
+    second: GegnerDeath_Sprite_123
+  - first:
+      213: 8610259404718683428
+    second: GegnerDeath_Sprite_124
+  - first:
+      213: 7291188908426117366
+    second: GegnerDeath_Sprite_125
+  - first:
+      213: 2349810986495764483
+    second: GegnerDeath_Sprite_126
+  - first:
+      213: -3210206849021725417
+    second: GegnerDeath_Sprite_127
+  - first:
+      213: -2656128740761206788
+    second: GegnerDeath_Sprite_128
+  - first:
+      213: -6772742640293257697
+    second: GegnerDeath_Sprite_129
+  - first:
+      213: 8388219843449558354
+    second: GegnerDeath_Sprite_130
+  - first:
+      213: 2992077750612236627
+    second: GegnerDeath_Sprite_131
+  - first:
+      213: -3768223365473291565
+    second: GegnerDeath_Sprite_132
+  - first:
+      213: -4739538708955373813
+    second: GegnerDeath_Sprite_133
+  - first:
+      213: -3566624276475326331
+    second: GegnerDeath_Sprite_134
+  - first:
+      213: -3239411866934311940
+    second: GegnerDeath_Sprite_135
+  - first:
+      213: -3116448319336066946
+    second: GegnerDeath_Sprite_136
+  - first:
+      213: 3306279460469628797
+    second: GegnerDeath_Sprite_137
+  - first:
+      213: 7953895614171218384
+    second: GegnerDeath_Sprite_138
+  - first:
+      213: 2971172341599332103
+    second: GegnerDeath_Sprite_139
+  - first:
+      213: -919635630691564967
+    second: GegnerDeath_Sprite_140
+  - first:
+      213: 1695336456512682352
+    second: GegnerDeath_Sprite_141
+  - first:
+      213: 8030865947776207165
+    second: GegnerDeath_Sprite_142
+  - first:
+      213: -3116490301709580890
+    second: GegnerDeath_Sprite_143
+  - first:
+      213: 1698444718126341403
+    second: GegnerDeath_Sprite_144
+  - first:
+      213: -996626714865447231
+    second: GegnerDeath_Sprite_145
+  - first:
+      213: -3666835405220794561
+    second: GegnerDeath_Sprite_146
+  - first:
+      213: 8861194768227045158
+    second: GegnerDeath_Sprite_147
+  - first:
+      213: -7865714470672119912
+    second: GegnerDeath_Sprite_148
+  - first:
+      213: -7535638696650176067
+    second: GegnerDeath_Sprite_149
+  - first:
+      213: -7895013999686136523
+    second: GegnerDeath_Sprite_150
+  - first:
+      213: 6328492297630678040
+    second: GegnerDeath_Sprite_151
+  - first:
+      213: -3435677825163008081
+    second: GegnerDeath_Sprite_152
+  - first:
+      213: 1285781646915175026
+    second: GegnerDeath_Sprite_153
+  - first:
+      213: -6156088510874727523
+    second: GegnerDeath_Sprite_154
+  - first:
+      213: 98984044036084332
+    second: GegnerDeath_Sprite_155
+  - first:
+      213: -3566503244557989332
+    second: GegnerDeath_Sprite_156
+  - first:
+      213: -1220749465238453266
+    second: GegnerDeath_Sprite_157
+  - first:
+      213: -6281187724221762425
+    second: GegnerDeath_Sprite_158
+  - first:
+      213: -6803279345486004995
+    second: GegnerDeath_Sprite_159
+  - first:
+      213: -4752212102218492110
+    second: GegnerDeath_Sprite_160
+  - first:
+      213: -4342347730975110196
+    second: GegnerDeath_Sprite_161
+  - first:
+      213: 6683565484125790434
+    second: GegnerDeath_Sprite_162
+  - first:
+      213: -7417254483678083625
+    second: GegnerDeath_Sprite_163
+  - first:
+      213: 7027760429029096559
+    second: GegnerDeath_Sprite_164
+  - first:
+      213: -882240781570695583
+    second: GegnerDeath_Sprite_165
+  - first:
+      213: 4376501324340574548
+    second: GegnerDeath_Sprite_166
+  - first:
+      213: 6144475252124209200
+    second: GegnerDeath_Sprite_167
+  - first:
+      213: 3292388593660719008
+    second: GegnerDeath_Sprite_168
+  - first:
+      213: -1001906807744824293
+    second: GegnerDeath_Sprite_169
+  - first:
+      213: 3141724658313592346
+    second: GegnerDeath_Sprite_170
+  - first:
+      213: -5331278743162557530
+    second: GegnerDeath_Sprite_171
+  - first:
+      213: 2611449534937251460
+    second: GegnerDeath_Sprite_172
+  - first:
+      213: -6212913433242890561
+    second: GegnerDeath_Sprite_173
+  - first:
+      213: 4673324339094028561
+    second: GegnerDeath_Sprite_174
+  - first:
+      213: -8642424632320884111
+    second: GegnerDeath_Sprite_175
+  - first:
+      213: -1760262631927847810
+    second: GegnerDeath_Sprite_176
+  - first:
+      213: 4858322793584329967
+    second: GegnerDeath_Sprite_177
+  - first:
+      213: -2547933946587735360
+    second: GegnerDeath_Sprite_178
+  - first:
+      213: -5458648810168960122
+    second: GegnerDeath_Sprite_179
+  - first:
+      213: 5461220019737023798
+    second: GegnerDeath_Sprite_180
+  - first:
+      213: -3586422598380075662
+    second: GegnerDeath_Sprite_181
+  - first:
+      213: -6841134640309099594
+    second: GegnerDeath_Sprite_182
+  - first:
+      213: 1009688249984698755
+    second: GegnerDeath_Sprite_183
+  - first:
+      213: 3594293450858769937
+    second: GegnerDeath_Sprite_184
+  - first:
+      213: 70242652134027124
+    second: GegnerDeath_Sprite_185
+  - first:
+      213: -2761421470756040035
+    second: GegnerDeath_Sprite_186
+  - first:
+      213: -9036813186612146021
+    second: GegnerDeath_Sprite_187
+  - first:
+      213: -6187868534140957941
+    second: GegnerDeath_Sprite_188
+  - first:
+      213: 2059778416960237628
+    second: GegnerDeath_Sprite_189
+  - first:
+      213: 1137061677621774528
+    second: GegnerDeath_Sprite_190
+  - first:
+      213: 6881576677848961330
+    second: GegnerDeath_Sprite_191
+  - first:
+      213: 8953031852605084668
+    second: GegnerDeath_Sprite_192
+  - first:
+      213: 5640377507954886070
+    second: GegnerDeath_Sprite_193
+  - first:
+      213: -8932068196785058985
+    second: GegnerDeath_Sprite_194
+  - first:
+      213: 7467250974888167992
+    second: GegnerDeath_Sprite_195
+  - first:
+      213: -3049164220784634850
+    second: GegnerDeath_Sprite_196
+  - first:
+      213: 4020110037974537752
+    second: GegnerDeath_Sprite_197
+  - first:
+      213: -2326383988571844506
+    second: GegnerDeath_Sprite_198
+  - first:
+      213: 5787733880021324551
+    second: GegnerDeath_Sprite_199
+  - first:
+      213: -8585609888202356710
+    second: GegnerDeath_Sprite_200
+  - first:
+      213: -4252600632604698758
+    second: GegnerDeath_Sprite_201
+  - first:
+      213: -4307566542613340703
+    second: GegnerDeath_Sprite_202
+  - first:
+      213: -2978025572341159790
+    second: GegnerDeath_Sprite_203
+  - first:
+      213: -7638164610849365007
+    second: GegnerDeath_Sprite_204
+  - first:
+      213: 31687809298070436
+    second: GegnerDeath_Sprite_205
+  - first:
+      213: 5713977634546343106
+    second: GegnerDeath_Sprite_206
+  - first:
+      213: -4457498896748004148
+    second: GegnerDeath_Sprite_207
+  - first:
+      213: -5127392686026204108
+    second: GegnerDeath_Sprite_208
+  - first:
+      213: -2604103387353702805
+    second: GegnerDeath_Sprite_209
+  - first:
+      213: -8687718358687341486
+    second: GegnerDeath_Sprite_210
+  - first:
+      213: -7745689320882974200
+    second: GegnerDeath_Sprite_211
+  - first:
+      213: 7457928084957069504
+    second: GegnerDeath_Sprite_212
+  - first:
+      213: 8341151488303343053
+    second: GegnerDeath_Sprite_213
+  - first:
+      213: -1120624532538293004
+    second: GegnerDeath_Sprite_214
+  - first:
+      213: -8528379426406063913
+    second: GegnerDeath_Sprite_215
+  - first:
+      213: 5607333739567857371
+    second: GegnerDeath_Sprite_216
+  - first:
+      213: -4721637916936436874
+    second: GegnerDeath_Sprite_217
+  - first:
+      213: 1486543024143932586
+    second: GegnerDeath_Sprite_218
+  - first:
+      213: -4978120336294879209
+    second: GegnerDeath_Sprite_219
+  - first:
+      213: -1664157181511237478
+    second: GegnerDeath_Sprite_220
+  - first:
+      213: 4712907582785159396
+    second: GegnerDeath_Sprite_221
+  - first:
+      213: 1236614033253041714
+    second: GegnerDeath_Sprite_222
+  - first:
+      213: -2155091104048535372
+    second: GegnerDeath_Sprite_223
+  - first:
+      213: -4311427755456317837
+    second: GegnerDeath_Sprite_224
+  - first:
+      213: 1204787969915283479
+    second: GegnerDeath_Sprite_225
+  - first:
+      213: -7861331013564109649
+    second: GegnerDeath_Sprite_226
+  - first:
+      213: 4712068513273598605
+    second: GegnerDeath_Sprite_227
+  - first:
+      213: 2433471948625600857
+    second: GegnerDeath_Sprite_228
+  - first:
+      213: -1760719674588194680
+    second: GegnerDeath_Sprite_229
+  - first:
+      213: 8766199233023583429
+    second: GegnerDeath_Sprite_230
+  - first:
+      213: 7711224539445191823
+    second: GegnerDeath_Sprite_231
+  - first:
+      213: -8057889265021698653
+    second: GegnerDeath_Sprite_232
+  - first:
+      213: -8650379000179821527
+    second: GegnerDeath_Sprite_233
+  - first:
+      213: 4849132812386025294
+    second: GegnerDeath_Sprite_234
+  - first:
+      213: 8971437538972186843
+    second: GegnerDeath_Sprite_235
+  - first:
+      213: -8674642644883781698
+    second: GegnerDeath_Sprite_236
+  - first:
+      213: -8744138907509411441
+    second: GegnerDeath_Sprite_237
+  - first:
+      213: 5566756574092829202
+    second: GegnerDeath_Sprite_238
+  - first:
+      213: 5828941696228455712
+    second: GegnerDeath_Sprite_239
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b20200134d35c47aca824b664a9946
+      internalID: -2124908365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 4320
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77ca09334528f9469c021731801c2f4
+      internalID: 2039737589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 4320
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709ffa48c3a19584987a5f84319c7ca8
+      internalID: 1185565977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 4320
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a5f5ffbc3d1e2438b98d05ce0defaf
+      internalID: -1551094056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 7044
+        y: 4320
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a17103aca439aa49ad06d39f9519093
+      internalID: -1025897531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42832c5ec0640b442b152fce8201acaf
+      internalID: -1289417494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 3240
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1439ab785190e4dbb6edd8681d6a3c
+      internalID: 275724132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 3240
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de22e00b22b25ea4ea35bbbaf2082556
+      internalID: -2091190238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 3240
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1011a623c4a91be4eb02ed903e36d09b
+      internalID: -145078220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 7044
+        y: 3240
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5c5ab2880988247b2648d0dd24274c
+      internalID: -936962331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b842422a9a3de43a44a4f57ec326a5
+      internalID: 1474571025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 2160
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bba28841859b14439212bdb8a03aa5b
+      internalID: 1754459891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 2160
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d181e4f58455494c82873f145c1f760
+      internalID: 1613408153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 2160
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cde094d0c6bd5469be9ee0f7f86022
+      internalID: -1401039796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 7044
+        y: 2160
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d924eb31510d5b43ad9e26d9123b6c4
+      internalID: 1513998058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f4bdaec07dd1f40a054aee2742bc6c
+      internalID: 807465541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1080
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d105f3c68c713468353ff69289cfc9
+      internalID: 556755745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 1080
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7c209b4d9668d408a130ca9dd9a5de
+      internalID: 213137597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 1080
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac58569d31f8ef243820656923e349d3
+      internalID: 749704372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 7044
+        y: 1080
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f7375f38a057149835925ce4431450
+      internalID: -1790421163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27e2aef71022b84787cb6c352d750e8
+      internalID: -535551128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 0
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909841c10d2937e4194b4e39312ce35c
+      internalID: 366759715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 0
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235cef0628519c14fa28120067205d27
+      internalID: -1370633235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GegnerDeath_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 0
+        width: 1761
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e9446b3c835ce49ada0e36b8a613da
+      internalID: 416028667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 97786e6b347c72745947a48e3975931d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GegnerDeath_Sprite_0: -2124908365
+      GegnerDeath_Sprite_1: 2039737589
+      GegnerDeath_Sprite_10: 1474571025
+      GegnerDeath_Sprite_11: 1754459891
+      GegnerDeath_Sprite_12: 1613408153
+      GegnerDeath_Sprite_13: -1401039796
+      GegnerDeath_Sprite_14: 1513998058
+      GegnerDeath_Sprite_15: 807465541
+      GegnerDeath_Sprite_16: 556755745
+      GegnerDeath_Sprite_17: 213137597
+      GegnerDeath_Sprite_18: 749704372
+      GegnerDeath_Sprite_19: -1790421163
+      GegnerDeath_Sprite_2: 1185565977
+      GegnerDeath_Sprite_20: -535551128
+      GegnerDeath_Sprite_21: 366759715
+      GegnerDeath_Sprite_22: -1370633235
+      GegnerDeath_Sprite_23: 416028667
+      GegnerDeath_Sprite_3: -1551094056
+      GegnerDeath_Sprite_4: -1025897531
+      GegnerDeath_Sprite_5: -1289417494
+      GegnerDeath_Sprite_6: 275724132
+      GegnerDeath_Sprite_7: -2091190238
+      GegnerDeath_Sprite_8: -145078220
+      GegnerDeath_Sprite_9: -936962331
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

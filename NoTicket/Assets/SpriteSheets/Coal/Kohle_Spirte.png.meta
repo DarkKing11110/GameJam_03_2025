@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: 0f8c2a666ecd2dd44a7f3069e1c24c49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8384994229991777547
+    second: Kohle_Spirte_0
+  - first:
+      213: -7474878951746902264
+    second: Kohle_Spirte_1
+  - first:
+      213: -7409919520818882543
+    second: Kohle_Spirte_2
+  - first:
+      213: -4399989680428500188
+    second: Kohle_Spirte_3
+  - first:
+      213: 7577117494407835540
+    second: Kohle_Spirte_4
+  - first:
+      213: -6601974486096721878
+    second: Kohle_Spirte_5
+  - first:
+      213: 6082878873918046253
+    second: Kohle_Spirte_6
+  - first:
+      213: 5127003461851600035
+    second: Kohle_Spirte_7
+  - first:
+      213: -5340097384834473659
+    second: Kohle_Spirte_8
+  - first:
+      213: 7360485588710172321
+    second: Kohle_Spirte_9
+  - first:
+      213: 7207924987088507199
+    second: Kohle_Spirte_10
+  - first:
+      213: 7528285733158349240
+    second: Kohle_Spirte_11
+  - first:
+      213: -3233248683586437223
+    second: Kohle_Spirte_12
+  - first:
+      213: 6520205468889171302
+    second: Kohle_Spirte_13
+  - first:
+      213: 3296998013235616905
+    second: Kohle_Spirte_14
+  - first:
+      213: -6415983694513667224
+    second: Kohle_Spirte_15
+  - first:
+      213: 1959184915905096647
+    second: Kohle_Spirte_16
+  - first:
+      213: 8221945326729444378
+    second: Kohle_Spirte_17
+  - first:
+      213: -7131374232492547736
+    second: Kohle_Spirte_18
+  - first:
+      213: 5637340505571458519
+    second: Kohle_Spirte_19
+  - first:
+      213: -5598085307409456272
+    second: Kohle_Spirte_20
+  - first:
+      213: 4369548709546814923
+    second: Kohle_Spirte_21
+  - first:
+      213: 2201756289151740321
+    second: Kohle_Spirte_22
+  - first:
+      213: -6699549114075369418
+    second: Kohle_Spirte_23
+  - first:
+      213: 3746061738156738914
+    second: Kohle_Spirte_24
+  - first:
+      213: 916246002067159709
+    second: Kohle_Spirte_25
+  - first:
+      213: -5792321443937474961
+    second: Kohle_Spirte_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kohle_Spirte_0
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 4296
+        width: 602
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fad3a56c2482ab80800000000000000
+      internalID: -8384994229991777547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_1
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 4296
+        width: 602
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807e41e6235e34890800000000000000
+      internalID: -7474878951746902264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_2
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 4296
+        width: 602
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1189b5b847daa2990800000000000000
+      internalID: -7409919520818882543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_3
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 4302
+        width: 632
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bbca2a2b810f2c0800000000000000
+      internalID: -4399989680428500188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_4
+      rect:
+        serializedVersion: 2
+        x: 4177
+        y: 4302
+        width: 640
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fa3934734572960800000000000000
+      internalID: 7577117494407835540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3449
+        width: 675
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2843040f231164a0800000000000000
+      internalID: -6601974486096721878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3451
+        width: 711
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d200d9b7b1aba6450800000000000000
+      internalID: 6082878873918046253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_7
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 3453
+        width: 748
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4dcd90c76c62740800000000000000
+      internalID: 5127003461851600035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_8
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 3453
+        width: 762
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541e2f6b8b924e5b0800000000000000
+      internalID: -5340097384834473659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_9
+      rect:
+        serializedVersion: 2
+        x: 4122
+        y: 3453
+        width: 762
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6a37935a2b52660800000000000000
+      internalID: 7360485588710172321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2601
+        width: 764
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3192172691b70460800000000000000
+      internalID: 7207924987088507199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_11
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2601
+        width: 786
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b96b8cdcf7d97860800000000000000
+      internalID: 7528285733158349240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_12
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 2591
+        width: 790
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fb458e3713123d0800000000000000
+      internalID: -3233248683586437223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_13
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 2590
+        width: 789
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665c2b3145c6c7a50800000000000000
+      internalID: 6520205468889171302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_14
+      rect:
+        serializedVersion: 2
+        x: 4088
+        y: 2592
+        width: 791
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cd31c893a41cd20800000000000000
+      internalID: 3296998013235616905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1738
+        width: 792
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86380dbb2d8d5f6a0800000000000000
+      internalID: -6415983694513667224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_16
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1740
+        width: 791
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cba3d10d4c603b10800000000000000
+      internalID: 1959184915905096647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_17
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 1740
+        width: 781
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c346286b73a1270800000000000000
+      internalID: 8221945326729444378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_18
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1740
+        width: 747
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86168ef4be4480d90800000000000000
+      internalID: -7131374232492547736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_19
+      rect:
+        serializedVersion: 2
+        x: 4063
+        y: 1740
+        width: 716
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddf188625bdb3e40800000000000000
+      internalID: 5637340505571458519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_20
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 888
+        width: 716
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073a685a21b9f42b0800000000000000
+      internalID: -5598085307409456272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_21
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 888
+        width: 699
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcded458661c3ac30800000000000000
+      internalID: 4369548709546814923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_22
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 888
+        width: 685
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a92fd8fda53e8e10800000000000000
+      internalID: 2201756289151740321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_23
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 888
+        width: 665
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6303144939b6603a0800000000000000
+      internalID: -6699549114075369418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_24
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 888
+        width: 649
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269c389ad4facf330800000000000000
+      internalID: 3746061738156738914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 36
+        width: 632
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ab51862e827bc00800000000000000
+      internalID: 916246002067159709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kohle_Spirte_26
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 36
+        width: 602
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66aa35f55a8d9fa0800000000000000
+      internalID: -5792321443937474961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

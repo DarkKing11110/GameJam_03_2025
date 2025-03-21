@@ -9,16 +9,20 @@ public class ServiceWagonBehaviour : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool playerDetected = false;
+    private Animator animator;
+    private bool isDeath = false;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        animator.enabled = false; // Pausiere die Animation zu Beginn
     }
 
     private void Update()
     {
         DetectPlayer();
-        if (playerDetected)
+        if (playerDetected == true)
         {
             MoveLeft();
         }
@@ -30,6 +34,7 @@ public class ServiceWagonBehaviour : MonoBehaviour
         if (player != null)
         {
             playerDetected = true;
+           // animator.enabled = true;
         }
     }
 
@@ -51,13 +56,18 @@ public class ServiceWagonBehaviour : MonoBehaviour
         }
         else
         {
-            Die();
+           // Die();
         }
     }
 
     private void Die()
     {
-        Destroy(gameObject);
+        Debug.Log("Enemy died");
+        isDeath = true;
+        animator.SetBool("isDeath", true); // Setze den booleschen Wert im Animator
+        rb.linearVelocity = Vector2.zero; // Stoppe die Bewegung
+        // Zerstöre das GameObject nach der Dauer der Todesanimation
+        Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
     }
 
     private void OnDrawGizmosSelected()
