@@ -3,23 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|c:\\users\\frede\\onedrive\\desktop\\gamesprogrammingsae2023\\unityaufgaben\\gamejam\\gamejam_03_2025\\noticket\\assets\\scripts\\enemy\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|c:\\users\\frede\\onedrive\\desktop\\gamesprogrammingsae2023\\unityaufgaben\\gamejam\\gamejam_03_2025\\noticket\\assets\\scripts\\enemy\\boss\\bossanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\bossanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\savesystem\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savesystem\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\savesystem\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savesystem\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|c:\\users\\frede\\onedrive\\desktop\\gamesprogrammingsae2023\\unityaufgaben\\gamejam\\gamejam_03_2025\\noticket\\assets\\scripts\\enemy\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\bosshealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\boss\\bosscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\bosscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\boss\\bossanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\boss\\bossanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|c:\\users\\frede\\onedrive\\desktop\\gamesprogrammingsae2023\\unityaufgaben\\gamejam\\gamejam_03_2025\\noticket\\assets\\scripts\\enemy\\ticketinspectorbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\enemy\\ticketinspectorbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\ticketinspectorbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\servicewagonbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\player\\playersavedatareceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playersavedatareceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\savesystem\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savesystem\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\ui\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\collectablesystem\\collectablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablesystem\\collectablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\savesystem\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savesystem\\savedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC10A7F4-D005-813A-65A9-45DC37F23176}|Assembly-CSharp.csproj|C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\assets\\scripts\\collectablesystem\\collectables\\lollicollectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,24 +114,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BossHealth.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
               "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Boss\\BossHealth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:24:10.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BossAnimationController.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossAnimationController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boss\\BossAnimationController.cs",
@@ -139,12 +139,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Boss\\BossAnimationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:21:32.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T10:21:32.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "PlayerProjectileShooter.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerProjectileShooter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerProjectileShooter.cs",
@@ -156,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ServiceWagonBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\ServiceWagonBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\ServiceWagonBehaviour.cs",
@@ -168,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "suitcaseBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\suitcaseBehaviour.cs",
@@ -180,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PlayerAnimationController.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerAnimationController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAnimationController.cs",
@@ -188,24 +187,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAnimationController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAQwBcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:27:47.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:27:47.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
+              "ViewState": "AQIAALoAAAAAAAAAAAAmwMIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:08:04.573Z"
+              "WhenOpened": "2025-03-20T09:08:04.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PlayerSaveDataReceiver.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Player\\PlayerSaveDataReceiver.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerSaveDataReceiver.cs",
@@ -229,19 +228,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\SaveSystem\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveSystem\\SaveSystem.cs",
               "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\SaveSystem\\SaveSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\SaveSystem\\SaveSystem.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAwEIAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T10:11:49.103Z"
+              "WhenOpened": "2025-03-17T10:11:49.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\SaveSystem\\SaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveSystem\\SaveData.cs",
@@ -249,11 +249,12 @@
               "RelativeToolTip": "Assets\\Scripts\\SaveSystem\\SaveData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T10:33:12.379Z"
+              "WhenOpened": "2025-03-17T10:33:12.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\UI\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuManager.cs",
@@ -313,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CollectableManager.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\CollectableSystem\\CollectableManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableSystem\\CollectableManager.cs",
@@ -337,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "TicketInspectorBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\TicketInspectorBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\TicketInspectorBehaviour.cs",
@@ -345,8 +346,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\TicketInspectorBehaviour.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T00:34:58.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T00:34:58.788Z"
             },
             {
               "$type": "Document",
@@ -385,13 +385,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BossController.cs",
               "DocumentMoniker": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
               "ToolTip": "C:\\Users\\frede\\OneDrive\\Desktop\\GamesProgrammingSAE2023\\UnityAufgaben\\GameJam\\GameJam_03_2025\\NoTicket\\Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Boss\\BossController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwCgAAAAJAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T13:19:43.365Z",
               "EditorCaption": ""
