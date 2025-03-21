@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using static UnityEngine.Rendering.BoolParameter;
 
 public class MenuManager : MonoBehaviour
 {
@@ -22,6 +24,8 @@ public class MenuManager : MonoBehaviour
     private GameObject gameOverMenu;
     private bool isPaused = false;
 
+    public Image splashImage;
+    public float displayTime = 3f;
     private void Start()
     {
 
@@ -64,6 +68,14 @@ public class MenuManager : MonoBehaviour
 
     public void Play()
     {
+        StartCoroutine(ShowSplashAndStart());
+    }
+    private IEnumerator ShowSplashAndStart()
+    {
+        splashImage.gameObject.SetActive(true);
+
+        yield return new WaitForSecondsRealtime(displayTime);
+
         SceneManager.LoadScene(1);
         Time.timeScale = 1f;
         isPaused = false;
