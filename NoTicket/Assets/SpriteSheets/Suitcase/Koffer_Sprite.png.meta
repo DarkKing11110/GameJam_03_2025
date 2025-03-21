@@ -810,7 +810,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Koffer_Sprite_0: -7829863797958214524
+      Koffer_Sprite_1: -5507795019971487073
+      Koffer_Sprite_10: -7484349079528553636
+      Koffer_Sprite_11: 5867771184291101992
+      Koffer_Sprite_12: -222080139512489007
+      Koffer_Sprite_13: 8205125190215752950
+      Koffer_Sprite_14: -7674208935841670977
+      Koffer_Sprite_15: -6299604596723645419
+      Koffer_Sprite_16: 5387864380739994783
+      Koffer_Sprite_17: -5510727923416501413
+      Koffer_Sprite_18: 6257731263202277013
+      Koffer_Sprite_19: 4286799750381454612
+      Koffer_Sprite_2: -5899431338616484924
+      Koffer_Sprite_20: 1856275640014929749
+      Koffer_Sprite_21: 748895231433212065
+      Koffer_Sprite_22: 8371701902290075778
+      Koffer_Sprite_23: 2067318007086144691
+      Koffer_Sprite_24: -5614323349176363336
+      Koffer_Sprite_25: -2567271637460622585
+      Koffer_Sprite_26: 5184224780676470640
+      Koffer_Sprite_3: -6247011963692835170
+      Koffer_Sprite_4: -8196220458892747424
+      Koffer_Sprite_5: 7787483346653005965
+      Koffer_Sprite_6: 2612517366561696813
+      Koffer_Sprite_7: -3898715082141785454
+      Koffer_Sprite_8: 6513108596138025714
+      Koffer_Sprite_9: 317751429010911196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

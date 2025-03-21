@@ -885,7 +885,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BossOfenSpucken_Sprite_0: -2062046026541539437
+      BossOfenSpucken_Sprite_1: -2019882839284513293
+      BossOfenSpucken_Sprite_10: -4790647904799122321
+      BossOfenSpucken_Sprite_11: -6784604926037339431
+      BossOfenSpucken_Sprite_12: 2818956673212207599
+      BossOfenSpucken_Sprite_13: 2809694205542398436
+      BossOfenSpucken_Sprite_14: 6157291082342540421
+      BossOfenSpucken_Sprite_15: -7173115568409647660
+      BossOfenSpucken_Sprite_16: 6217179267554002418
+      BossOfenSpucken_Sprite_17: -412676102595127562
+      BossOfenSpucken_Sprite_18: -1845172220170652374
+      BossOfenSpucken_Sprite_19: -7409804960408992112
+      BossOfenSpucken_Sprite_2: 941236480448280399
+      BossOfenSpucken_Sprite_20: 1325114725958876163
+      BossOfenSpucken_Sprite_21: -6872130511124820049
+      BossOfenSpucken_Sprite_22: 7357109168452056815
+      BossOfenSpucken_Sprite_23: 5114756601732133183
+      BossOfenSpucken_Sprite_24: -6895726449427387953
+      BossOfenSpucken_Sprite_25: -4122693372386643798
+      BossOfenSpucken_Sprite_26: -2761212187469422453
+      BossOfenSpucken_Sprite_27: -4612242289982406043
+      BossOfenSpucken_Sprite_28: -8769886803356211391
+      BossOfenSpucken_Sprite_29: 7420626601039729589
+      BossOfenSpucken_Sprite_3: -8177389364103293951
+      BossOfenSpucken_Sprite_4: -7922302240840462725
+      BossOfenSpucken_Sprite_5: -6839306413340343214
+      BossOfenSpucken_Sprite_6: -479848477226331939
+      BossOfenSpucken_Sprite_7: -1894077057518774747
+      BossOfenSpucken_Sprite_8: 438275882632052264
+      BossOfenSpucken_Sprite_9: -9055105903389043171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

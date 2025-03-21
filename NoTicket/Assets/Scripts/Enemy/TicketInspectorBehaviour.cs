@@ -43,4 +43,3 @@ public class TicketInspectorBehaviour : MonoBehaviour
         Destroy(gameObject);
     }
 }
-
