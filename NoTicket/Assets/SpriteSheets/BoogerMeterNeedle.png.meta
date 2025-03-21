@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BoogerMeterNeedle_0: -1028762345879793085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
