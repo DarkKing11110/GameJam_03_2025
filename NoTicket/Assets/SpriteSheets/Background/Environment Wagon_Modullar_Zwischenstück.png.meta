@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Environment Wagon_Modullar_Zwischenst\xFCck_0": -7186729975128382963
+      "Environment Wagon_Modullar_Zwischenst\xFCck_1": 990655029797607050
+      "Environment Wagon_Modullar_Zwischenst\xFCck_2": 6619065696803368379
+      "Environment Wagon_Modullar_Zwischenst\xFCck_3": -232136011807468943
+      "Environment Wagon_Modullar_Zwischenst\xFCck_4": 1123399071571784032
+      "Environment Wagon_Modullar_Zwischenst\xFCck_5": -8906427420645559728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

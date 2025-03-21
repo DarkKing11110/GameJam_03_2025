@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Environment Wagon_Modullar_Mitte_0: -3705208134506843759
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
