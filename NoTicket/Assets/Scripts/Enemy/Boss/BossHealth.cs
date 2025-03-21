@@ -7,15 +7,19 @@ public class BossHealth : MonoBehaviour, IDamageable
     [SerializeField]
     private float currentHealth;
 
+    private BossAnimationController animationController;
+
     private void Start()
     {
+        animationController = GetComponentInChildren<BossAnimationController>();
         currentHealth = maxHealth;
     }
 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
-
+        animationController.SetIsHit();
+        Debug.Log("isHit");
         if (currentHealth <= 0)
         {
             Die();
@@ -30,8 +34,9 @@ public class BossHealth : MonoBehaviour, IDamageable
     private void Die()
     {
         Debug.Log("Boss ist gestorben!");
-        // DeathLogic
+        animationController.SetIsDead(true);
         gameObject.SetActive(false);
+
     }
 
     public float GetCurrentHealth()

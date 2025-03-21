@@ -4,16 +4,25 @@ using UnityEngine.UI;
 
 public class PlayerProjectileShooter : MonoBehaviour
 {
-    [SerializeField]
+    [Header("Projectile Settings")]
+    [SerializeField] 
     private Transform projectileSpawnPoint;
-    [SerializeField]
+    [SerializeField] 
     private ProjectilePool playerProjectilePool;
-    [SerializeField]
+
+    [Header("Ammo Settings")]
+    [SerializeField] 
     private int maxAmmo;
-    [SerializeField]
+    [SerializeField] 
     private float reloadTime;
-    [SerializeField]
-    private Image ammoBar;
+
+    [Header("UI Needle Settings")]
+    [SerializeField] 
+    private RectTransform ammoNeedle;
+    [SerializeField] 
+    private float minNeedleRotation = -90f;
+    [SerializeField] 
+    private float maxNeedleRotation = 90f;
 
     private int currentAmmo;
     private PlayerAnimationController animationController;
@@ -25,6 +34,8 @@ public class PlayerProjectileShooter : MonoBehaviour
     {
         currentAmmo = maxAmmo;
         animationController = GetComponentInChildren<PlayerAnimationController>();
+
+        UpdateAmmoNeedle();
     }
 
     public void OnShoot(InputAction.CallbackContext context)
@@ -62,12 +73,10 @@ public class PlayerProjectileShooter : MonoBehaviour
         Vector2 worldMousePos = Camera.main.ScreenToWorldPoint(mousePos);
         Vector2 direction = (worldMousePos - (Vector2)projectileSpawnPoint.position).normalized;
 
-
         projectile.GetComponent<Projectile>().Fire(direction);
 
-
         currentAmmo--;
-        UpdateAmmoBar();
+        UpdateAmmoNeedle();
     }
 
     private System.Collections.IEnumerator Reload()
@@ -76,8 +85,7 @@ public class PlayerProjectileShooter : MonoBehaviour
             yield break;
 
         isReloading = true;
-
-         animationController.SetIsReloading(true);
+        animationController.SetIsReloading(true);
 
         int missingAmmo = maxAmmo - currentAmmo;
         float dynamicReloadTime = reloadTime * ((float)missingAmmo / maxAmmo);
@@ -85,6 +93,7 @@ public class PlayerProjectileShooter : MonoBehaviour
         if (dynamicReloadTime <= 0)
         {
             isReloading = false;
+            animationController.SetIsReloading(false);
             yield break;
         }
 
@@ -96,28 +105,29 @@ public class PlayerProjectileShooter : MonoBehaviour
             elapsedTime += Time.deltaTime;
 
             float progress = elapsedTime / dynamicReloadTime;
-
             currentAmmo = startAmmo + Mathf.RoundToInt(progress * (maxAmmo - startAmmo));
 
-            UpdateAmmoBar();
+            UpdateAmmoNeedle();
 
             yield return null;
         }
 
         currentAmmo = maxAmmo;
-        UpdateAmmoBar();
+        UpdateAmmoNeedle();
 
         isReloading = false;
-
         animationController.SetIsReloading(false);
     }
 
-    private void UpdateAmmoBar()
+    private void UpdateAmmoNeedle()
     {
-        if (ammoBar != null)
-        {
-            ammoBar.fillAmount = (float)currentAmmo / maxAmmo;
-        }
+        if (ammoNeedle == null)
+            return;
+
+        float ammoPercent = (float)currentAmmo / maxAmmo;
+        float needleRotation = Mathf.Lerp(minNeedleRotation, maxNeedleRotation, ammoPercent);
+
+        ammoNeedle.localEulerAngles = new Vector3(0f, 0f, needleRotation);
     }
 
     public void OnReload(InputAction.CallbackContext context)

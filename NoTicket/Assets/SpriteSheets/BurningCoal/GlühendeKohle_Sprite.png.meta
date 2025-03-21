@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Gl\xFChendeKohle_Sprite_0": 2617240686443273756
+      "Gl\xFChendeKohle_Sprite_1": -4808098996436225130
+      "Gl\xFChendeKohle_Sprite_2": -7711509106905744251
+      "Gl\xFChendeKohle_Sprite_3": -8759692162125065478
+      "Gl\xFChendeKohle_Sprite_4": 7321065416522249455
+      "Gl\xFChendeKohle_Sprite_5": 2212137223659501274
+      "Gl\xFChendeKohle_Sprite_6": -8244754484099394169
+      "Gl\xFChendeKohle_Sprite_7": 509295369280400188
+      "Gl\xFChendeKohle_Sprite_8": -8615740208566372728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
