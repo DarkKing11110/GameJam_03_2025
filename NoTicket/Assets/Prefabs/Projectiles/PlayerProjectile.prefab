@@ -77,8 +77,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 7772316051854828052, guid: 7461e5818c7bb7d4d84246e66821ce9e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,11 +101,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd0aba2476b71e7438b6e6913eab07c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectileType: 0
   speed: 20
   lifetime: 3
   damageAmount: 1
+  turnSpeed: 0
+  homingDuration: 0
   bounceFactor: 1
-  projectileType: 0
 --- !u!58 &914761339182190519
 CircleCollider2D:
   m_ObjectHideFlags: 0
